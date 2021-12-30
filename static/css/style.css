@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prompt:wght@300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Josefin Sans";
+}
+html{
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* form */
+.container{
+    padding: 100px;
+}
+.heading{
+    text-align: center;
+    color: green;
+    font-weight: 800;
+}
+.form{
+    padding: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+label{
+    font-weight: 600;
+}
+.row{
+    margin-bottom: 20px;
+}
+.row-1{
+    text-align: center;
+}
+.log-btn{
+    width: 100%;
+}
+@media only screen and (max-width: 600px){
+    /* form */
+    .container{
+        padding: 50px;
+    }
+    .heading{
+        text-align: center;
+        color: green;
+        font-weight: 800;
+    }
+    .form{
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 8px;
+    }
+    .row{
+        margin-bottom: 10px;
+    }
+    .row-1{
+        text-align: center;
+    }
+    .log-btn{
+        width: 100%;
+    }
+}
