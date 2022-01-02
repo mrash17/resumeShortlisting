@@ -14,14 +14,18 @@ html{
 body{
     margin: 0;
     padding: 0;
+    background-color: #7900ff;
 }
 /* form */
 .container{
     padding: 100px;
+    background-color: #7900ff;
+    color: #93ffd8;
+    font-weight: 800;
 }
 .heading{
     text-align: center;
-    color: green;
+    color: #93ffd8;
     font-weight: 800;
 }
 .form{
@@ -30,12 +34,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    background-color: white;
-    border: 1px solid white;
     border-radius: 8px;
 }
+input{
+    background-color: #7900ff;
+}
 label{
-    font-weight: 600;
+    font-weight: 800;
 }
 .row{
     margin-bottom: 20px;
@@ -45,6 +50,42 @@ label{
 }
 .log-btn{
     width: 100%;
+    background-color: #93ffd8;
+    color: black;
+}
+.links{
+    color: #93ffd8;
+    text-decoration:none ;
+}
+.links:hover{
+    color: #93ffd8;
+}
+@media only screen and (max-width: 900px){
+    .container{
+        padding: 20px;
+    }
+    .heading{
+        text-align: center;
+        color: #93ffd8;
+        font-weight: 800;
+    }
+    .form{
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .row{
+        margin-bottom: 10px;
+    }
+    .row-1{
+        text-align: center;
+    }
+    .log-btn{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 600px){
     /* form */
@@ -53,17 +94,15 @@ label{
     }
     .heading{
         text-align: center;
-        color: green;
+        color: #93ffd8;
         font-weight: 800;
     }
     .form{
-        padding: 20px;
+        padding: 10px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-        background-color: white;
-        border: 1px solid white;
         border-radius: 8px;
     }
     .row{
