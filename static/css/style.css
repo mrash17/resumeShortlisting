@@ -14,30 +14,40 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-color: #7900ff;
+    background-color: #041C32;
 }
 /* form */
+.card{
+    border: 1px solid #041C32;
+    border-radius: 15px;
+}
+.card-img{
+    height: 350px;
+    width: 100%;
+    border-radius: 15px;
+}
+.card-text{
+    text-align: center;
+    color: black;
+    font-weight: 800;
+}
+.row-r{
+    padding: 30px;
+}
 .container{
     padding: 100px;
-    background-color: #7900ff;
-    color: #93ffd8;
+    color: #ECB365;
     font-weight: 800;
 }
 .heading{
-    text-align: center;
-    color: #93ffd8;
+    text-align: left;
+    color: #ECB365;
     font-weight: 800;
 }
 .form{
-    padding: 40px;
+    padding: 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
     border-radius: 8px;
-}
-input{
-    background-color: #7900ff;
 }
 label{
     font-weight: 800;
@@ -48,29 +58,29 @@ label{
 .row-1{
     text-align: center;
 }
+.login-img{
+    width: 100%;
+    height: 100%;
+}
 .log-btn{
     width: 100%;
-    background-color: #93ffd8;
+    background-color: #ECB365;
     color: black;
+    font-weight: 600;
+    font-size: 20px;
 }
 .links{
-    color: #93ffd8;
+    color: #ECB365;
     text-decoration:none ;
 }
 .links:hover{
-    color: #93ffd8;
+    color: #ECB365;
 }
 @media only screen and (max-width: 900px){
     .container{
         padding: 20px;
     }
-    .heading{
-        text-align: center;
-        color: #93ffd8;
-        font-weight: 800;
-    }
     .form{
-        padding: 10px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -79,9 +89,6 @@ label{
     }
     .row{
         margin-bottom: 10px;
-    }
-    .row-1{
-        text-align: center;
     }
     .log-btn{
         width: 100%;
@@ -90,15 +97,9 @@ label{
 @media only screen and (max-width: 600px){
     /* form */
     .container{
-        padding: 50px;
-    }
-    .heading{
-        text-align: center;
-        color: #93ffd8;
-        font-weight: 800;
+        padding: 20px;
     }
     .form{
-        padding: 10px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -108,10 +109,13 @@ label{
     .row{
         margin-bottom: 10px;
     }
-    .row-1{
-        text-align: center;
-    }
     .log-btn{
         width: 100%;
+    }
+    .card-img{
+        height: 200px;
+    }
+    .row-r{
+        padding: 0%;
     }
 }

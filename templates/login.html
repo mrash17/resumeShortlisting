@@ -13,34 +13,44 @@
   
   <body>
       <div class="container">
-          <h2 class="heading">Login</h2>
-          <div class="form">
-              <form id="login-form" method="POST" action="">
-                  <div class="row">
-                      <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                          <label for="email">Email:</label>
-                          <input type="email" name="email" id="email" class="form-control" required>
-                      </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                        <label for="password">Password:</label>
-                        <input type="password" name="password" id="password" class="form-control" required>
-                    </div>
-                  </div>
-                  <div class="row">
-                      <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                          <a href="" class="links">Forgot password?</a><br/>
-                          <a href="/signup" class="links">Don't have an account? Signup</a>
-                      </div>
-                  </div>
-                  <div class="row row-1">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                        <button type="submit" class="btn  log-btn">LogIn</button>
-                    </div>
-                  </div>
-              </form>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 row-l">
+            <img src="../static/images/4.png" class="login-img">
           </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 row-r">
+            <h2 class="heading">Welcome Back!</h2>
+            <div class="form">
+                <form id="login-form" method="POST" action="">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+                            <label for="email">Company Email:</label>
+                            <input type="email" name="email" id="email" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+                          <label for="password">Password:</label>
+                          <input type="password" name="password" id="password" class="form-control" required>
+                      </div>
+                    </div>
+                    <div class="row row-1">
+                      <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+                          <button type="submit" class="btn  log-btn">LogIn</button>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                          <a href="" class="links">Forgot password?</a><br/>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                        <a href="/signup" class="links">Don't have an account?</a>
+                    </div>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+          
       </div>
 
   <!-- Optional JavaScript; choose one of the two! -->

@@ -1,68 +1,106 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="../static/css/style.css" rel="stylesheet">
     <title>SignUp</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-        <h2 class="heading">SignUp</h2>
-        <div class="form">
-            <form id="signup-form" method="POST" action="">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" class="form-control" required>
-                    </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 row-l">
+                <h2 class="heading">Get Started</h2>
+                <a href="/login" class="links">Already have an account? Login</a>
+                <div class="form">
+                    <form id="signup-form" method="POST" action="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+                                <label for="email">Company Email:</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+                                <label for="companyname">Company Name:</label>
+                                <input type="text" name="companyname" id="companyname" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+                                <label for="password">Password:</label>
+                                <input type="password" name="password" id="password" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+                                <label for="confirmPassword">Confirm Password:</label>
+                                <input type="password" name="confirmPassword" id="confirmPassword" class="form-control"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="row row-1">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+                                <button type="submit" class="btn  log-btn">Signup</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                        <label for="companyname">Company Name:</label>
-                        <input type="text" name="companyname" id="companyname" class="form-control" required>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 row-r">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card">
+                            <img src="../static/images/1.jpg" class="card-img-top card-img" alt="...">
+                            <div class="card-body">
+                              <h1 class="card-text">Create a job post</h1>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="../static/images/2.jpg" class="card-img-top card-img" alt="...">
+                            <div class="card-body">
+                              <h1 class="card-text">Shortlist Resumes</h1>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="../static/images/3.jpg" class="card-img-top card-img" alt="...">
+                            <div class="card-body">
+                              <h1 class="card-text">Get the Best candidate</h1>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                      <label for="password">Password:</label>
-                      <input type="password" name="password" id="password" class="form-control" required>
                   </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                        <label for="confirmPassword">Confirm Password:</label>
-                        <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" required>
-                    </div>
-                  </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                        <a href="/login" class="links">Already have an account? Login</a>
-                    </div>
-                </div>
-                <div class="row row-1">
-                  <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                      <button type="submit" class="btn  log-btn">Signup</button>
-                  </div>
-                </div>
-            </form>
+            </div>
         </div>
+
     </div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
