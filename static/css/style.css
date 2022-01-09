@@ -14,7 +14,6 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-color: #041C32;
 }
 /* form */
 .card{
@@ -32,31 +31,37 @@ body{
     font-weight: 800;
 }
 .row-r{
-    padding: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.row-field{
+    margin-bottom: 10px;
 }
 .container{
-    padding: 100px;
-    color: #ECB365;
+    margin-top: 70px;
+    color: #27333f;
     font-weight: 800;
+    border: 2px solid white;
+    box-shadow: 8px 10px 24px 0px rgba(39,51,63,0.52);
+-webkit-box-shadow: 8px 10px 24px 0px rgba(39,51,63,0.52);
+-moz-box-shadow: 8px 10px 24px 0px rgba(39,51,63,0.52);
 }
 .heading{
     text-align: left;
-    color: #ECB365;
+    color: #27333f;
     font-weight: 800;
 }
 .form{
-    padding: 20px;
     display: block;
     border-radius: 8px;
 }
 label{
     font-weight: 800;
 }
-.row{
-    margin-bottom: 20px;
-}
 .row-1{
-    text-align: center;
+    background-color: #27333f;
 }
 .login-img{
     width: 100%;
@@ -64,21 +69,27 @@ label{
 }
 .log-btn{
     width: 100%;
-    background-color: #ECB365;
-    color: black;
+    background-color: #27333f;
+    color: white;
     font-weight: 600;
     font-size: 20px;
 }
+.pass-row{
+    margin-bottom: 0%;
+}
 .links{
-    color: #ECB365;
+    color: #27333f;
     text-decoration:none ;
+    text-align: right;
+    margin-right: 0%;
 }
 .links:hover{
     color: #ECB365;
 }
 @media only screen and (max-width: 900px){
     .container{
-        padding: 20px;
+        padding: 10px;
+        padding-top: 0%;
     }
     .form{
         display: block;
@@ -93,11 +104,16 @@ label{
     .log-btn{
         width: 100%;
     }
+    .row-r{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
 }
 @media only screen and (max-width: 600px){
     /* form */
     .container{
-        padding: 20px;
+        padding: 0px;
     }
     .form{
         display: block;
@@ -106,8 +122,12 @@ label{
         width: 100%;
         border-radius: 8px;
     }
-    .row{
-        margin-bottom: 10px;
+    .login-img{
+        width: 80%;
+        height: 100%;
+    }
+    .row-1{
+        padding: 0px;
     }
     .log-btn{
         width: 100%;
@@ -116,6 +136,13 @@ label{
         height: 200px;
     }
     .row-r{
-        padding: 0%;
+        padding: 30px;
+        margin-top: 10px;
+    }
+    .pass-row{
+        margin-bottom: 0%;
+    }
+    .links{
+        margin-bottom: 0%;
     }
 }

@@ -14,43 +14,50 @@
   <body>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 row-l">
-            <img src="../static/images/4.png" class="login-img">
+          <div class="col-sm-12 col-md-6 col-lg-6 row-1">
+            <img src="../static/images/login.png" class="login-img">
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-6 row-r">
-            <h2 class="heading">Welcome Back!</h2>
+          <div class="col-sm-12 col-md-6 col-lg-6 row-r">
+            <h2 class="heading">Hello , Welcome Back!</h2>
+            <p class="login-instruction">Log in with your data that you entered during your registration.</p>
             <div class="form">
                 <form id="login-form" method="POST" action="">
-                    <div class="row">
+                    <div class="row row-field">
                         <div class="col-sm-12 col-md-12 col-lg-12 col-12">
                             <label for="email">Company Email:</label>
                             <input type="email" name="email" id="email" class="form-control" required>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row pass-row">
+                      <div class="col-sm-6 col-6 col-md-6 col-lg-6">
+                        <label for="password">Password:</label>
+                      </div>
+                      <div class="col-sm-6 col-6 col-md-6 col-lg-6">
+                        <a href="" class="links">Forgot password?</a>
+                      </div>
+                    </div>
+                    <div class="row row-field">
                       <div class="col-sm-12 col-md-12 col-lg-12 col-12">
-                          <label for="password">Password:</label>
                           <input type="password" name="password" id="password" class="form-control" required>
                       </div>
                     </div>
-                    <div class="row row-1">
+                    <div class="row row-field">
                       <div class="col-sm-12 col-md-12 col-lg-12 col-12">
                           <button type="submit" class="btn  log-btn">LogIn</button>
                       </div>
                     </div>
-                    <div class="row">
+                    <div class="row pass-row">
                       <div class="col-sm-12 col-md-6 col-lg-6 col-12">
-                          <a href="" class="links">Forgot password?</a><br/>
+                        <a href="" class="links">Don't have an account? Signup</a>
                       </div>
                       <div class="col-sm-12 col-md-6 col-lg-6 col-12">
-                        <a href="/signup" class="links">Don't have an account?</a>
+                    
+                      </div>
                     </div>
                   </div>
                 </form>
             </div>
-          </div>
-        </div>
-          
+        </div>  
       </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
