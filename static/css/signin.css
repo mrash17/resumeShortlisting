@@ -92,6 +92,10 @@ body{
 label{
     font-weight: 600;
     font-size: 18px;
+    font-family: 'Rubik';
+}
+p{
+    font-family: 'Rubik';
 }
 .links{
     font-weight: 600;
