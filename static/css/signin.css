@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prompt:wght@300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Josefin Sans";
+}
+html{
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.signup{
+    background-color:#041C32;
+    color:#93ffd8;
+    font-weight:600;
+    font-size:15px;
+    padding:1px 10px;
+    margin-right: 30px;
+}
+.signup .nav-link:hover{
+    color:white;
+}
+.nav-link{
+    color: #93ffd8;
+}
+.acc{
+    color: #041C32;
+    font-weight: 600;
+    font-size: 15px;
+}
+.acc:hover{
+    color: #041C32;
+    text-decoration: none;
+}
+.navbar-brand{
+    color: #93ffd8;
+    font-weight: 800;
+    font-weight: 600;
+}
+.row-l{
+    background-color: #041C32;
+}
+.row-r{
+    background-color: white;
+    color: #041C32;
+}
+.login-form{
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.login-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+.heading{
+    color: #041C32;
+    font-weight: 700;
+    padding: 100px;
+    padding-top: 60px;
+    padding-bottom: 0%;
+    text-align: left;
+}
+.login-instruction{
+    color: #041C32;
+    font-size: 20px;
+    padding: 100px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: left;
+}
+.row-field{
+    margin-bottom: 25px;
+}
+.row-field-start{
+    margin-bottom: 0%;
+}
+.row-or{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label{
+    font-weight: 600;
+    font-size: 18px;
+}
+.links{
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: #041C32;
+}
+.links:hover{
+    color: #041C32;
+    text-decoration: none;
+}
+.form-control{
+    width: 80%;
+    margin-top: 5px;
+    line-height: 4ch;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+}
+.or{
+    margin-left: 35%;
+    color: #041C32;
+    font-weight: 500;
+}
+.login-btn{
+    text-align: center;
+    width:80%;
+    background-color: #27333f;
+    border-radius: 4px;
+}
+.log-btn{
+    color: #93ffd8;
+    font-size: 25px;
+    font-weight: 600;
+}
+.log-btn:hover{
+    color: #93ffd8;
+}
+.google-btn{
+    text-align: center;
+    width:80%;
+    background-color:white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+}
+.gog-btn{
+    color: #041C32;
+    font-size: 25px;
+    font-weight: 600;
+}
+.gog-btn:hover{
+    color: #041C32;
+}
+.g-img{
+    margin-right: 10px;
+}
+@media (max-width: 420px) {
+}
+@media only screen and (max-width: 900px) {
+    .heading{
+        padding-top: 10px;
+    }
+    .login-img{
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .login-form{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-control{
+        width: 100%;
+        line-height: 3ch;
+    }
+    .or{
+        margin-left: 45%;
+    }
+    .login-btn{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .google-btn{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .signup{
+        visibility: hidden;
+    }
+    .acc{
+        visibility: hidden;
+    }
+    .login-form{
+        padding: 10px;
+    }
+    .login-img{
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .heading{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .login-instruction{
+        font-size: 15px;
+        padding: 10px;
+        padding-top: 0%;
+    }
+    .row-field{
+        margin-bottom: 15px;
+    }
+    label{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .links{
+        font-size: 15px;
+    }
+    .form-control{
+        width: 100%;
+        line-height: 3ch;
+    }
+    .or{
+        margin-left: 45%;
+    }
+    .login-btn{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .log-btn{
+        font-size: 20px;
+    }
+    .google-btn{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gog-btn{
+        font-size: 20px;
+    }
+    .g-img{
+        margin-right: 5px;
+    }
+       
+}
