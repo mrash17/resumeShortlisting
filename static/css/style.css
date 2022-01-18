@@ -63,6 +63,14 @@ body{
     margin-top: 100px;
     margin-bottom: 90px;
 }
+.signup-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 550px;
+    margin-top: 70px;
+}
 .heading{
     color: #041C32;
     font-weight: 700;
@@ -111,11 +119,9 @@ p{
     width: 80%;
     margin-top: 5px;
     line-height: 4ch;
-    border: 1px solid white;
+    border: 1px solid #041C32;
     background-color: white;
-    box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
-    -webkit-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
-    -moz-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px; */
 }
 .or{
     margin-left: 35%;
@@ -136,26 +142,122 @@ p{
 .log-btn:hover{
     color: #93ffd8;
 }
-.google-btn{
+.g-img{
+    margin-right: 10px;
+}
+
+/* job-post form */
+.form-left-col{
+    background-color: #041C32;
+    height:100vh;
+    position: fixed;
+    -webkit-box-shadow: 10px 4px 34px -6px rgba(0,0,0,0.31);
+-moz-box-shadow: 10px 4px 34px -6px rgba(0,0,0,0.31);
+box-shadow: 10px 4px 34px -6px rgba(0,0,0,0.31);
+}
+.create{
+    color: #93ffd8;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 35%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.create-content{
+    color: #93ffd8;
+    font-weight: 600;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.titles{
+ padding-left:10%;
+ padding-top:5%;
+}
+.form-p{
+  color:#93ffd8;
+  font-size:20px;
+  font-weight:600;
+  margin-top:20px;
+}
+.number{
+  background-color:#93ffd8;
+  padding:10px 15px;
+  color:#041C32;
+  margin-right:20px;
+}
+.steps{
+    color: #93ffd8;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 24px;
+}
+.steps:hover{
+    color: #93ffd8;
+}
+.form-right-col{
+    margin-left:30px;
+    margin-top:30px;
+    position:absolute;
+    right:10px;  
+}
+.form-right-p{
+  margin-top:20px;
+  font-weight:600;
+}
+.form-heading{
+    color: #041C32;
+    font-weight: 800;
+}
+.form-label{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight:600;
+  font-size:22px;
+  color:#041C32;
+}
+.add-info{
+    font-weight: 500;
+    font-size: 15px;
+    color: red;
+}
+.post-form{
+  margin-top:50px;
+}
+.submit-btn{
+    background-color:#041C32;
+    color:#93ffd8;
+    padding:10px 40px;
+}
+.submit-btn:hover{
+  background-color:#041C32;
+  color:#93ffd8;
+}
+.item-btn{
+  text-align:right;
+  margin-top:30px;
+  padding-right: 160px;
+}
+.link-btn{
     text-align: center;
     width:80%;
-    background-color:white;
+    background-color:#041C32;
     border-radius: 4px;
+    margin-top:30px;
     box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
     -webkit-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
     -moz-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
 }
-.gog-btn{
-    color: #041C32;
+.gen-btn{
+    color: #93ffd8;
     font-size: 25px;
     font-weight: 600;
 }
-.gog-btn:hover{
-    color: #041C32;
+.gen-btn:hover{
+    color: #93ffd8;
 }
-.g-img{
-    margin-right: 10px;
-}
+  
 @media (max-width: 420px) {
 }
 @media only screen and (max-width: 900px) {
@@ -192,6 +294,7 @@ p{
         margin-left: auto;
         margin-right: auto;
     }
+      
 }
 @media only screen and (max-width: 600px) {
     .signup{
@@ -257,5 +360,88 @@ p{
     .g-img{
         margin-right: 5px;
     }
-       
+
+    
+    /* job-post form */
+    .form-left-col{
+        height: 70vh;
+    }
+    .create{
+        margin-top: 15%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .create-content{
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .form-p{
+      font-size:18px;
+    }
+    .steps{
+        font-size: 20px;
+    }
+    .form-right-col{
+        margin-left:30px;
+        margin-top:100%;
+        position:relative;
+        right:0px;  
+    }
+    .form-right-p{
+      margin-top:20px;
+      font-weight:600;
+    }
+    .form-heading{
+        color: #041C32;
+        font-weight: 800;
+    }
+    .form-label{
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-weight:600;
+      font-size:22px;
+      color:#041C32;
+    }
+    .add-info{
+        font-weight: 500;
+        font-size: 15px;
+        color: red;
+    }
+    .post-form{
+      margin-top:50px;
+    }
+    .submit-btn{
+        background-color:#041C32;
+        color:#93ffd8;
+        padding:10px 40px;
+    }
+    .submit-btn:hover{
+      background-color:#041C32;
+      color:#93ffd8;
+    }
+    .item-btn{
+      text-align:right;
+      margin-top:30px;
+      padding-right: 160px;
+    }
+    .link-btn{
+        text-align: center;
+        width:80%;
+        background-color:#041C32;
+        border-radius: 4px;
+        margin-top:30px;
+        box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+        -webkit-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+        -moz-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+    }
+    .gen-btn{
+        color: #93ffd8;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .gen-btn:hover{
+        color: #93ffd8;
+    }
+    
 }
