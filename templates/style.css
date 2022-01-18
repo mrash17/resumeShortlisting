@@ -11,6 +11,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     align-items:center;
+    
 }
 .container{
 position: relative;
@@ -181,7 +182,6 @@ p{
 text-transform: uppercase;
 color:#063246;
 font-size: 16px;
-
 }
 .skills .box{
     position: relative;
@@ -218,6 +218,20 @@ font-size: 16px;
       {margin:10px ;
         grid-template-columns: repeat(1,2fr);
     }
+    .container1
+      {margin:10px ;
+        grid-template-columns: repeat(1,2fr);
+    }
+    .upper-side ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    }
+   
       
   }
   @media(max-width:600px){
@@ -228,5 +242,131 @@ font-size: 16px;
         min-width: 150px;
         margin-bottom: 5px;
     }
-  }
-  
+  } 
+  /*tEMPLATE 2*/
+  body .bd{
+    background:#f2f5fa;
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items:center;
+}
+  .container1{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 10%;
+    background: #bac2cf;
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    box-shadow:0 35px 35px rgba(34, 33, 33, 0.5);
+    
+    }
+.container1 .upper-side
+{
+    position: relative;
+    background: #191e26;
+    padding: 10px;
+}   
+.upper-side ul{
+    position: relative;
+    text-align: center;
+}
+.upper-side ul li{
+    position: relative;
+    display: inline;
+    margin-right:25px;
+    align-items: center;
+    list-style: none; 
+    cursor:pointer;
+}
+.upper-side ul li .icon{
+display: inline-block;
+width: 20px;
+color:#7e918f;
+font-size: 18px;
+}
+.upper-side ul li span{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-display:swap;
+    font-weight:300;
+    font-style:normal;
+    color: #7e918f;
+}
+a:link{
+    color: #191e26;
+}
+a:hover{
+    color: #7e918f;
+}
+.container1 .lower-side
+{
+    position: relative;
+    background:#b5c0bf;
+    padding: 20px;   
+    }
+.title3{
+    color:#191e26;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    
+    font-family:'Times New Roman', Times;
+}
+.about .box .text1 h4
+    {
+        text-transform: uppercase;
+        color:#1b1414;
+        font-size: 16px;
+    }
+.about.contact.edu .box .text1 h4
+    {
+            text-transform: uppercase;
+            color:#1a0929;
+            font-size: 16px;
+            font-weight: 7  00; 
+   }
+     .about.contact.edu .text1 h4:nth-child(1){
+
+                color:#1b1414;
+                font-weight: 600;
+            }
+    .about.contact.edu .box .exp h5{
+                text-transform: uppercase;
+                color: #3b1d1d;
+                font-weight: 600;
+                font-size: 15px;
+            }
+
+            .skills .box2{
+                position: relative;
+                width:100%;
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+                
+            }
+.skills .box2 h4{
+                text-transform: uppercase;
+                color:#050b2bcb;
+                font-size:16px ;    
+            }
+ .skills .box2 .percent{
+                position: relative;
+                width: 70%;
+                height: 12px;
+                background-color: rgb(136, 133, 133);
+                display: block;
+                margin-top: 4px;
+            }
+ .skills .box2 .percent div
+              {
+                position: absolute;
+                top: 0;
+                left:0;
+                height: 100%;
+                background :#d8dde7;
+              }
