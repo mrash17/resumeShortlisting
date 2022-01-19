@@ -175,6 +175,7 @@ box-shadow: 10px 4px 34px -6px rgba(0,0,0,0.31);
  padding-left:10%;
  padding-top:5%;
 }
+
 .form-p{
   color:#93ffd8;
   font-size:20px;
@@ -294,6 +295,87 @@ box-shadow: 10px 4px 34px -6px rgba(0,0,0,0.31);
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* job post form */
+    .form-left-col{
+        height: 100vh;
+        position: relative;
+        right: 0%;
+    }
+    .create{
+        margin-top: 5%;
+        margin-left: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .create-content{
+        font-size: 18px;
+        margin-left: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .form-p{
+      font-size:18px;
+    }
+    .job-field{
+        width: 90%;
+        line-height: 3ch;
+    }
+    .steps{
+        font-size: 20px;
+    }
+    .form-right-col{
+        margin-left:10px;
+        margin-top:30px;
+        position: relative;
+        right: 0%;
+    }
+    .form-right-p{
+      margin-top:20px;
+      font-weight:600;
+    }
+    .form-heading{
+        color: #041C32;
+        font-weight: 800;
+    }
+    .form-label{
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-weight:600;
+      font-size:22px;
+      color:#041C32;
+    }
+    .post-form{
+      margin-top:50px;
+      margin-left: 20px;
+    }
+    .item-btn{
+        text-align: center;
+        padding-right: 0px;
+    }
+    .submit-btn{
+        background-color:#041C32;
+        color:#93ffd8;
+        padding:10px 40px;
+    }
+    .submit-btn:hover{
+      background-color:#041C32;
+      color:#93ffd8;
+    }
+    
+    .link-btn{
+        width:90%;
+        margin-bottom:30px;
+    }
+    .gen-btn{
+        color: #93ffd8;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .gen-btn:hover{
+        color: #93ffd8;
+    }
+
       
 }
 @media only screen and (max-width: 600px) {
@@ -348,45 +430,47 @@ box-shadow: 10px 4px 34px -6px rgba(0,0,0,0.31);
     .log-btn{
         font-size: 20px;
     }
-    .google-btn{
-        width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    .link-btn{
+        margin-bottom:20px;
     }
-    .gog-btn{
+    .gen-btn{
         font-size: 20px;
-    }
-    .g-img{
-        margin-right: 5px;
     }
 
     
     /* job-post form */
     .form-left-col{
         height: 70vh;
+        position: relative;
+        right: 0%;
     }
     .create{
         margin-top: 15%;
-        padding-left: 10px;
-        padding-right: 10px;
+        margin-left: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .create-content{
         font-size: 18px;
-        padding-left: 10px;
-        padding-right: 10px;
+        margin-left: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .form-p{
       font-size:18px;
+    }
+    .job-field{
+        width: 90%;
+        line-height: 3ch;
     }
     .steps{
         font-size: 20px;
     }
     .form-right-col{
-        margin-left:30px;
-        margin-top:100%;
-        position:relative;
-        right:0px;  
+        margin-left:10px;
+        margin-top:30px;
+        position: relative;
+        right: 0%;
     }
     .form-right-p{
       margin-top:20px;
@@ -411,6 +495,10 @@ box-shadow: 10px 4px 34px -6px rgba(0,0,0,0.31);
     .post-form{
       margin-top:50px;
     }
+    .item-btn{
+        text-align: center;
+        padding-right: 0px;
+    }
     .submit-btn{
         background-color:#041C32;
         color:#93ffd8;
@@ -420,20 +508,9 @@ box-shadow: 10px 4px 34px -6px rgba(0,0,0,0.31);
       background-color:#041C32;
       color:#93ffd8;
     }
-    .item-btn{
-      text-align:right;
-      margin-top:30px;
-      padding-right: 160px;
-    }
+    
     .link-btn{
-        text-align: center;
-        width:80%;
-        background-color:#041C32;
-        border-radius: 4px;
-        margin-top:30px;
-        box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
-        -webkit-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
-        -moz-box-shadow: 2px 2px 2px 0px rgba(39,51,63,0.52);
+        width:90%;
     }
     .gen-btn{
         color: #93ffd8;

@@ -44,7 +44,7 @@
                         Skills*
                         <p class="add-info">Click on the "Add Skill" button to add more skills.</p>
                     </label>
-                    <input type="text" placeholder="Python" name="skill" required class="form-control">
+                    <input type="text" placeholder="Python" name="skill" required class="form-control job-field">
                     <div id="newElementId"></div>
                       <div id="dynamicCheck" class="item-btn">
                         <input type="button" class="btn btn-lg submit-btn" value="Add Skill" onclick="createNewElement();"/>
@@ -52,15 +52,15 @@
                     <label class="form-label">
                         Experience*
                     </label>
-                    <input type="text" placeholder="0-3 years" name="experience" required class="form-control">
+                    <input type="text" placeholder="0-3 years" name="experience" required class="form-control job-field">
                     <label class="form-label">
                         Education*
                     </label>
-                    <input type="text" placeholder="B.Tech" name="education" required class="form-control">
+                    <input type="text" placeholder="B.Tech" name="education" required class="form-control job-field">
                     <label class="form-label">
                         City
                     </label>
-                    <input type="text" placeholder="Ahmedabad" name="city"  class="form-control">
+                    <input type="text" placeholder="Ahmedabad" name="city"  class="form-control job-field">
                     <div  class="link-btn">
                         <input type="button" class="btn btn-lg gen-btn" value="Generate Link!" />
                     </div>
@@ -76,7 +76,7 @@
             var txtNewInputBox = document.createElement('div');
         
             // Then add the content (a new input box) of the element.
-            txtNewInputBox.innerHTML = '<input type="text" placeholder="Python" name="skill" required class="form-control" style="margin-top:10px;">';
+            txtNewInputBox.innerHTML = '<input type="text" placeholder="Python" name="skill" required class="form-control job-field" style="margin-top:10px;">';
         
             // Finally put it where it is supposed to appear.
             document.getElementById("newElementId").appendChild(txtNewInputBox);
