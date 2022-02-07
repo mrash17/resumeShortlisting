@@ -1,4 +1,4 @@
-from flask import Flask  , redirect , render_template
+from flask import Flask  , redirect ,request, url_for, render_template
 
 app = Flask(__name__)
 
@@ -6,12 +6,16 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route("/signin") 
+@app.route("/signin", methods=['GET','POST']) 
 def login():
+    if request.method=="POST":
+        return redirect(url_for('dashboard'))
     return render_template('signin.html')
 
-@app.route("/signup")
+@app.route("/signup", methods=['GET','POST'])
 def signup():
+    if request.method=="POST":
+        return redirect(url_for('dashboard'))
     return render_template('signup.html')
 
 @app.route("/dashboard")
