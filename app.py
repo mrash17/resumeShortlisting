@@ -26,6 +26,10 @@ def dashboard():
 def jobpost():
     return render_template('jobPost.html')
 
+@app.route("/student-resume")
+def studentresume():
+    return render_template('student_resume.html')
+
 @app.route("/resume1")
 def template():
     return render_template("template1.html")
