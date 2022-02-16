@@ -144,6 +144,15 @@ p{
     font-size: 25px;
     font-weight: 600;
 }
+.reset-btn{
+    text-align: center;
+    background-color: #27333f;
+    border-radius: 4px;
+    color: #93ffd8;
+}
+.reset-btn:hover{
+    color: #93ffd8;
+}
 .log-btn:hover{
     color: #93ffd8;
 }
