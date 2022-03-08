@@ -41,10 +41,14 @@
             <div class="form-div">
                 <form method="post" action="" class="post-form">
                     <label class="form-label">
+                        Company Name*
+                    </label>
+                    <input type="text" placeholder="Company Name" name="cname" required class="form-control job-field">
+                    <label class="form-label">
                         Skills*
                         <p class="add-info">Click on the "Add Skill" button to add more skills.</p>
                     </label>
-                    <input type="text" placeholder="Python" name="skill" required class="form-control job-field">
+                    <input type="text" placeholder="Python" name="skill[]" required class="form-control job-field">
                     <div id="newElementId"></div>
                       <div id="dynamicCheck" class="item-btn">
                         <input type="button" class="btn btn-lg submit-btn" value="Add Skill" onclick="createNewElement();"/>
@@ -76,7 +80,7 @@
             var txtNewInputBox = document.createElement('div');
         
             // Then add the content (a new input box) of the element.
-            txtNewInputBox.innerHTML = '<input type="text" placeholder="Python" name="skill" required class="form-control job-field" style="margin-top:10px;">';
+            txtNewInputBox.innerHTML = '<input type="text" placeholder="Python" name="skill[]" required class="form-control job-field" style="margin-top:10px;">';
         
             // Finally put it where it is supposed to appear.
             document.getElementById("newElementId").appendChild(txtNewInputBox);
